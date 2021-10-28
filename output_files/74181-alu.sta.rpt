@@ -1,0 +1,599 @@
+TimeQuest Timing Analyzer report for 74181-alu
+Thu Oct 28 18:30:31 2021
+Quartus II 64-Bit Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. TimeQuest Timing Analyzer Summary
+  3. Parallel Compilation
+  4. Clocks
+  5. Fmax Summary
+  6. Setup Summary
+  7. Hold Summary
+  8. Recovery Summary
+  9. Removal Summary
+ 10. Minimum Pulse Width Summary
+ 11. Propagation Delay
+ 12. Minimum Propagation Delay
+ 13. Clock Transfers
+ 14. Report TCCS
+ 15. Report RSKM
+ 16. Unconstrained Paths
+ 17. TimeQuest Timing Analyzer Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2013 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------+
+; TimeQuest Timing Analyzer Summary                                       ;
++--------------------+----------------------------------------------------+
+; Quartus II Version ; Version 13.1.0 Build 162 10/23/2013 SJ Web Edition ;
+; Revision Name      ; 74181-alu                                          ;
+; Device Family      ; MAX II                                             ;
+; Device Name        ; EPM240T100C5                                       ;
+; Timing Models      ; Final                                              ;
+; Delay Model        ; Slow Model                                         ;
+; Rise/Fall Delays   ; Unavailable                                        ;
++--------------------+----------------------------------------------------+
+
+
++------------------------------------------+
+; Parallel Compilation                     ;
++----------------------------+-------------+
+; Processors                 ; Number      ;
++----------------------------+-------------+
+; Number detected on machine ; 4           ;
+; Maximum allowed            ; 2           ;
+;                            ;             ;
+; Average used               ; 1.00        ;
+; Maximum used               ; 1           ;
+;                            ;             ;
+; Usage by Processor         ; % Time Used ;
+;     Processor 1            ; 100.0%      ;
+;     Processors 2-4         ;   0.0%      ;
++----------------------------+-------------+
+
+
+----------
+; Clocks ;
+----------
+No clocks to report.
+
+
+----------------
+; Fmax Summary ;
+----------------
+No paths to report.
+
+
+-----------------
+; Setup Summary ;
+-----------------
+No paths to report.
+
+
+----------------
+; Hold Summary ;
+----------------
+No paths to report.
+
+
+--------------------
+; Recovery Summary ;
+--------------------
+No paths to report.
+
+
+-------------------
+; Removal Summary ;
+-------------------
+No paths to report.
+
+
+-------------------------------
+; Minimum Pulse Width Summary ;
+-------------------------------
+No paths to report.
+
+
++------------------------------------------------------+
+; Propagation Delay                                    ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; A0         ; A_eq_B      ; 21.808 ;    ;    ; 21.808 ;
+; A0         ; C_nplus4    ; 15.971 ;    ;    ; 15.971 ;
+; A0         ; G           ; 14.026 ;    ;    ; 14.026 ;
+; A0         ; OA8         ; 20.436 ;    ;    ; 20.436 ;
+; A0         ; OB7         ; 22.198 ;    ;    ; 22.198 ;
+; A0         ; OC6         ; 20.935 ;    ;    ; 20.935 ;
+; A0         ; OD5         ; 20.825 ;    ;    ; 20.825 ;
+; A0         ; OE4         ; 20.970 ;    ;    ; 20.970 ;
+; A0         ; OF3         ; 22.254 ;    ;    ; 22.254 ;
+; A0         ; OG2         ; 21.119 ;    ;    ; 21.119 ;
+; A0         ; P           ; 13.231 ;    ;    ; 13.231 ;
+; A0         ; logic_a     ; 13.673 ;    ;    ; 13.673 ;
+; A0         ; logic_b     ; 14.251 ;    ;    ; 14.251 ;
+; A0         ; logic_c     ; 15.629 ;    ;    ; 15.629 ;
+; A0         ; logic_d     ; 18.910 ;    ;    ; 18.910 ;
+; A1         ; A_eq_B      ; 21.657 ;    ;    ; 21.657 ;
+; A1         ; C_nplus4    ; 16.219 ;    ;    ; 16.219 ;
+; A1         ; G           ; 14.274 ;    ;    ; 14.274 ;
+; A1         ; OA8         ; 20.285 ;    ;    ; 20.285 ;
+; A1         ; OB7         ; 22.047 ;    ;    ; 22.047 ;
+; A1         ; OC6         ; 20.784 ;    ;    ; 20.784 ;
+; A1         ; OD5         ; 20.674 ;    ;    ; 20.674 ;
+; A1         ; OE4         ; 20.819 ;    ;    ; 20.819 ;
+; A1         ; OF3         ; 22.103 ;    ;    ; 22.103 ;
+; A1         ; OG2         ; 20.968 ;    ;    ; 20.968 ;
+; A1         ; P           ; 13.113 ;    ;    ; 13.113 ;
+; A1         ; logic_b     ; 14.529 ;    ;    ; 14.529 ;
+; A1         ; logic_c     ; 15.478 ;    ;    ; 15.478 ;
+; A1         ; logic_d     ; 18.759 ;    ;    ; 18.759 ;
+; A2         ; A_eq_B      ; 20.097 ;    ;    ; 20.097 ;
+; A2         ; C_nplus4    ; 16.129 ;    ;    ; 16.129 ;
+; A2         ; G           ; 14.184 ;    ;    ; 14.184 ;
+; A2         ; OA8         ; 18.724 ;    ;    ; 18.724 ;
+; A2         ; OB7         ; 20.487 ;    ;    ; 20.487 ;
+; A2         ; OC6         ; 19.224 ;    ;    ; 19.224 ;
+; A2         ; OD5         ; 19.114 ;    ;    ; 19.114 ;
+; A2         ; OE4         ; 19.259 ;    ;    ; 19.259 ;
+; A2         ; OF3         ; 20.543 ;    ;    ; 20.543 ;
+; A2         ; OG2         ; 19.407 ;    ;    ; 19.407 ;
+; A2         ; P           ; 12.711 ;    ;    ; 12.711 ;
+; A2         ; logic_c     ; 13.917 ;    ;    ; 13.917 ;
+; A2         ; logic_d     ; 17.199 ;    ;    ; 17.199 ;
+; A3         ; A_eq_B      ; 16.717 ;    ;    ; 16.717 ;
+; A3         ; C_nplus4    ; 15.309 ;    ;    ; 15.309 ;
+; A3         ; G           ; 13.364 ;    ;    ; 13.364 ;
+; A3         ; OA8         ; 14.994 ;    ;    ; 14.994 ;
+; A3         ; OB7         ; 17.107 ;    ;    ; 17.107 ;
+; A3         ; OC6         ; 15.844 ;    ;    ; 15.844 ;
+; A3         ; OD5         ; 15.734 ;    ;    ; 15.734 ;
+; A3         ; OE4         ; 15.861 ;    ;    ; 15.861 ;
+; A3         ; OF3         ; 17.163 ;    ;    ; 17.163 ;
+; A3         ; OG2         ; 15.338 ;    ;    ; 15.338 ;
+; A3         ; P           ; 12.657 ;    ;    ; 12.657 ;
+; A3         ; logic_d     ; 13.819 ;    ;    ; 13.819 ;
+; B0         ; A_eq_B      ; 21.868 ;    ;    ; 21.868 ;
+; B0         ; C_nplus4    ; 16.031 ;    ;    ; 16.031 ;
+; B0         ; G           ; 14.086 ;    ;    ; 14.086 ;
+; B0         ; OA8         ; 20.496 ;    ;    ; 20.496 ;
+; B0         ; OB7         ; 22.258 ;    ;    ; 22.258 ;
+; B0         ; OC6         ; 20.995 ;    ;    ; 20.995 ;
+; B0         ; OD5         ; 20.885 ;    ;    ; 20.885 ;
+; B0         ; OE4         ; 21.030 ;    ;    ; 21.030 ;
+; B0         ; OF3         ; 22.314 ;    ;    ; 22.314 ;
+; B0         ; OG2         ; 21.179 ;    ;    ; 21.179 ;
+; B0         ; P           ; 13.291 ;    ;    ; 13.291 ;
+; B0         ; logic_a     ; 13.733 ;    ;    ; 13.733 ;
+; B0         ; logic_b     ; 14.311 ;    ;    ; 14.311 ;
+; B0         ; logic_c     ; 15.689 ;    ;    ; 15.689 ;
+; B0         ; logic_d     ; 18.970 ;    ;    ; 18.970 ;
+; B1         ; A_eq_B      ; 21.891 ;    ;    ; 21.891 ;
+; B1         ; C_nplus4    ; 16.453 ;    ;    ; 16.453 ;
+; B1         ; G           ; 14.508 ;    ;    ; 14.508 ;
+; B1         ; OA8         ; 20.519 ;    ;    ; 20.519 ;
+; B1         ; OB7         ; 22.281 ;    ;    ; 22.281 ;
+; B1         ; OC6         ; 21.018 ;    ;    ; 21.018 ;
+; B1         ; OD5         ; 20.908 ;    ;    ; 20.908 ;
+; B1         ; OE4         ; 21.053 ;    ;    ; 21.053 ;
+; B1         ; OF3         ; 22.337 ;    ;    ; 22.337 ;
+; B1         ; OG2         ; 21.202 ;    ;    ; 21.202 ;
+; B1         ; P           ; 12.648 ;    ;    ; 12.648 ;
+; B1         ; logic_b     ; 14.763 ;    ;    ; 14.763 ;
+; B1         ; logic_c     ; 15.712 ;    ;    ; 15.712 ;
+; B1         ; logic_d     ; 18.993 ;    ;    ; 18.993 ;
+; B2         ; A_eq_B      ; 19.865 ;    ;    ; 19.865 ;
+; B2         ; C_nplus4    ; 15.897 ;    ;    ; 15.897 ;
+; B2         ; G           ; 13.952 ;    ;    ; 13.952 ;
+; B2         ; OA8         ; 18.492 ;    ;    ; 18.492 ;
+; B2         ; OB7         ; 20.255 ;    ;    ; 20.255 ;
+; B2         ; OC6         ; 18.992 ;    ;    ; 18.992 ;
+; B2         ; OD5         ; 18.882 ;    ;    ; 18.882 ;
+; B2         ; OE4         ; 19.027 ;    ;    ; 19.027 ;
+; B2         ; OF3         ; 20.311 ;    ;    ; 20.311 ;
+; B2         ; OG2         ; 19.175 ;    ;    ; 19.175 ;
+; B2         ; P           ; 12.479 ;    ;    ; 12.479 ;
+; B2         ; logic_c     ; 13.685 ;    ;    ; 13.685 ;
+; B2         ; logic_d     ; 16.967 ;    ;    ; 16.967 ;
+; B3         ; A_eq_B      ; 17.386 ;    ;    ; 17.386 ;
+; B3         ; C_nplus4    ; 15.978 ;    ;    ; 15.978 ;
+; B3         ; G           ; 14.033 ;    ;    ; 14.033 ;
+; B3         ; OA8         ; 15.663 ;    ;    ; 15.663 ;
+; B3         ; OB7         ; 17.776 ;    ;    ; 17.776 ;
+; B3         ; OC6         ; 16.513 ;    ;    ; 16.513 ;
+; B3         ; OD5         ; 16.403 ;    ;    ; 16.403 ;
+; B3         ; OE4         ; 16.530 ;    ;    ; 16.530 ;
+; B3         ; OF3         ; 17.832 ;    ;    ; 17.832 ;
+; B3         ; OG2         ; 16.007 ;    ;    ; 16.007 ;
+; B3         ; P           ; 13.348 ;    ;    ; 13.348 ;
+; B3         ; logic_d     ; 14.488 ;    ;    ; 14.488 ;
+; BIN1       ; OA8         ; 11.994 ;    ;    ; 11.994 ;
+; BIN1       ; OB7         ; 10.571 ;    ;    ; 10.571 ;
+; BIN1       ; OC6         ; 10.914 ;    ;    ; 10.914 ;
+; BIN1       ; OD5         ; 9.212  ;    ;    ; 9.212  ;
+; BIN1       ; OE4         ; 12.358 ;    ;    ; 12.358 ;
+; BIN1       ; OF3         ; 13.100 ;    ;    ; 13.100 ;
+; BIN1       ; OG2         ; 12.066 ;    ;    ; 12.066 ;
+; Cn         ; A_eq_B      ; 18.921 ;    ;    ; 18.921 ;
+; Cn         ; C_nplus4    ; 10.693 ;    ;    ; 10.693 ;
+; Cn         ; OA8         ; 17.549 ;    ;    ; 17.549 ;
+; Cn         ; OB7         ; 19.311 ;    ;    ; 19.311 ;
+; Cn         ; OC6         ; 18.048 ;    ;    ; 18.048 ;
+; Cn         ; OD5         ; 17.938 ;    ;    ; 17.938 ;
+; Cn         ; OE4         ; 18.083 ;    ;    ; 18.083 ;
+; Cn         ; OF3         ; 19.367 ;    ;    ; 19.367 ;
+; Cn         ; OG2         ; 18.232 ;    ;    ; 18.232 ;
+; Cn         ; logic_a     ; 10.787 ;    ;    ; 10.787 ;
+; Cn         ; logic_b     ; 11.364 ;    ;    ; 11.364 ;
+; Cn         ; logic_c     ; 12.742 ;    ;    ; 12.742 ;
+; Cn         ; logic_d     ; 16.023 ;    ;    ; 16.023 ;
+; M          ; A_eq_B      ; 17.283 ;    ;    ; 17.283 ;
+; M          ; OA8         ; 15.907 ;    ;    ; 15.907 ;
+; M          ; OB7         ; 17.673 ;    ;    ; 17.673 ;
+; M          ; OC6         ; 16.410 ;    ;    ; 16.410 ;
+; M          ; OD5         ; 16.300 ;    ;    ; 16.300 ;
+; M          ; OE4         ; 16.445 ;    ;    ; 16.445 ;
+; M          ; OF3         ; 17.729 ;    ;    ; 17.729 ;
+; M          ; OG2         ; 16.590 ;    ;    ; 16.590 ;
+; M          ; logic_a     ; 10.689 ;    ;    ; 10.689 ;
+; M          ; logic_b     ; 11.093 ;    ;    ; 11.093 ;
+; M          ; logic_c     ; 11.100 ;    ;    ; 11.100 ;
+; M          ; logic_d     ; 14.385 ;    ;    ; 14.385 ;
+; S0         ; A_eq_B      ; 21.711 ;    ;    ; 21.711 ;
+; S0         ; C_nplus4    ; 15.922 ;    ;    ; 15.922 ;
+; S0         ; G           ; 13.977 ;    ;    ; 13.977 ;
+; S0         ; OA8         ; 20.339 ;    ;    ; 20.339 ;
+; S0         ; OB7         ; 22.101 ;    ;    ; 22.101 ;
+; S0         ; OC6         ; 20.838 ;    ;    ; 20.838 ;
+; S0         ; OD5         ; 20.728 ;    ;    ; 20.728 ;
+; S0         ; OE4         ; 20.873 ;    ;    ; 20.873 ;
+; S0         ; OF3         ; 22.157 ;    ;    ; 22.157 ;
+; S0         ; OG2         ; 21.022 ;    ;    ; 21.022 ;
+; S0         ; logic_a     ; 13.576 ;    ;    ; 13.576 ;
+; S0         ; logic_b     ; 14.217 ;    ;    ; 14.217 ;
+; S0         ; logic_c     ; 15.532 ;    ;    ; 15.532 ;
+; S0         ; logic_d     ; 18.813 ;    ;    ; 18.813 ;
+; S1         ; A_eq_B      ; 21.381 ;    ;    ; 21.381 ;
+; S1         ; C_nplus4    ; 15.801 ;    ;    ; 15.801 ;
+; S1         ; G           ; 13.856 ;    ;    ; 13.856 ;
+; S1         ; OA8         ; 20.009 ;    ;    ; 20.009 ;
+; S1         ; OB7         ; 21.771 ;    ;    ; 21.771 ;
+; S1         ; OC6         ; 20.508 ;    ;    ; 20.508 ;
+; S1         ; OD5         ; 20.398 ;    ;    ; 20.398 ;
+; S1         ; OE4         ; 20.543 ;    ;    ; 20.543 ;
+; S1         ; OF3         ; 21.827 ;    ;    ; 21.827 ;
+; S1         ; OG2         ; 20.692 ;    ;    ; 20.692 ;
+; S1         ; logic_a     ; 13.246 ;    ;    ; 13.246 ;
+; S1         ; logic_b     ; 13.887 ;    ;    ; 13.887 ;
+; S1         ; logic_c     ; 15.202 ;    ;    ; 15.202 ;
+; S1         ; logic_d     ; 18.483 ;    ;    ; 18.483 ;
+; S2         ; A_eq_B      ; 21.379 ;    ;    ; 21.379 ;
+; S2         ; C_nplus4    ; 15.795 ;    ;    ; 15.795 ;
+; S2         ; G           ; 13.850 ;    ;    ; 13.850 ;
+; S2         ; OA8         ; 20.007 ;    ;    ; 20.007 ;
+; S2         ; OB7         ; 21.769 ;    ;    ; 21.769 ;
+; S2         ; OC6         ; 20.506 ;    ;    ; 20.506 ;
+; S2         ; OD5         ; 20.396 ;    ;    ; 20.396 ;
+; S2         ; OE4         ; 20.541 ;    ;    ; 20.541 ;
+; S2         ; OF3         ; 21.825 ;    ;    ; 21.825 ;
+; S2         ; OG2         ; 20.690 ;    ;    ; 20.690 ;
+; S2         ; P           ; 13.031 ;    ;    ; 13.031 ;
+; S2         ; logic_a     ; 13.305 ;    ;    ; 13.305 ;
+; S2         ; logic_b     ; 13.822 ;    ;    ; 13.822 ;
+; S2         ; logic_c     ; 15.200 ;    ;    ; 15.200 ;
+; S2         ; logic_d     ; 18.481 ;    ;    ; 18.481 ;
+; S3         ; A_eq_B      ; 21.066 ;    ;    ; 21.066 ;
+; S3         ; C_nplus4    ; 15.482 ;    ;    ; 15.482 ;
+; S3         ; G           ; 13.537 ;    ;    ; 13.537 ;
+; S3         ; OA8         ; 19.694 ;    ;    ; 19.694 ;
+; S3         ; OB7         ; 21.456 ;    ;    ; 21.456 ;
+; S3         ; OC6         ; 20.193 ;    ;    ; 20.193 ;
+; S3         ; OD5         ; 20.083 ;    ;    ; 20.083 ;
+; S3         ; OE4         ; 20.228 ;    ;    ; 20.228 ;
+; S3         ; OF3         ; 21.512 ;    ;    ; 21.512 ;
+; S3         ; OG2         ; 20.377 ;    ;    ; 20.377 ;
+; S3         ; P           ; 13.234 ;    ;    ; 13.234 ;
+; S3         ; logic_a     ; 12.992 ;    ;    ; 12.992 ;
+; S3         ; logic_b     ; 13.509 ;    ;    ; 13.509 ;
+; S3         ; logic_c     ; 14.887 ;    ;    ; 14.887 ;
+; S3         ; logic_d     ; 18.168 ;    ;    ; 18.168 ;
++------------+-------------+--------+----+----+--------+
+
+
++------------------------------------------------------+
+; Minimum Propagation Delay                            ;
++------------+-------------+--------+----+----+--------+
+; Input Port ; Output Port ; RR     ; RF ; FR ; FF     ;
++------------+-------------+--------+----+----+--------+
+; A0         ; A_eq_B      ; 17.440 ;    ;    ; 17.440 ;
+; A0         ; C_nplus4    ; 15.003 ;    ;    ; 15.003 ;
+; A0         ; G           ; 14.026 ;    ;    ; 14.026 ;
+; A0         ; OA8         ; 17.954 ;    ;    ; 17.954 ;
+; A0         ; OB7         ; 16.380 ;    ;    ; 16.380 ;
+; A0         ; OC6         ; 16.784 ;    ;    ; 16.784 ;
+; A0         ; OD5         ; 16.675 ;    ;    ; 16.675 ;
+; A0         ; OE4         ; 17.090 ;    ;    ; 17.090 ;
+; A0         ; OF3         ; 16.786 ;    ;    ; 16.786 ;
+; A0         ; OG2         ; 18.428 ;    ;    ; 18.428 ;
+; A0         ; P           ; 13.231 ;    ;    ; 13.231 ;
+; A0         ; logic_a     ; 13.515 ;    ;    ; 13.515 ;
+; A0         ; logic_b     ; 14.032 ;    ;    ; 14.032 ;
+; A0         ; logic_c     ; 15.410 ;    ;    ; 15.410 ;
+; A0         ; logic_d     ; 18.691 ;    ;    ; 18.691 ;
+; A1         ; A_eq_B      ; 17.873 ;    ;    ; 17.873 ;
+; A1         ; C_nplus4    ; 14.885 ;    ;    ; 14.885 ;
+; A1         ; G           ; 14.039 ;    ;    ; 14.039 ;
+; A1         ; OA8         ; 18.236 ;    ;    ; 18.236 ;
+; A1         ; OB7         ; 17.746 ;    ;    ; 17.746 ;
+; A1         ; OC6         ; 16.496 ;    ;    ; 16.496 ;
+; A1         ; OD5         ; 16.387 ;    ;    ; 16.387 ;
+; A1         ; OE4         ; 16.802 ;    ;    ; 16.802 ;
+; A1         ; OF3         ; 16.894 ;    ;    ; 16.894 ;
+; A1         ; OG2         ; 18.369 ;    ;    ; 18.369 ;
+; A1         ; P           ; 13.113 ;    ;    ; 13.113 ;
+; A1         ; logic_b     ; 13.744 ;    ;    ; 13.744 ;
+; A1         ; logic_c     ; 14.702 ;    ;    ; 14.702 ;
+; A1         ; logic_d     ; 17.983 ;    ;    ; 17.983 ;
+; A2         ; A_eq_B      ; 17.225 ;    ;    ; 17.225 ;
+; A2         ; C_nplus4    ; 14.483 ;    ;    ; 14.483 ;
+; A2         ; G           ; 13.108 ;    ;    ; 13.108 ;
+; A2         ; OA8         ; 17.891 ;    ;    ; 17.891 ;
+; A2         ; OB7         ; 16.831 ;    ;    ; 16.831 ;
+; A2         ; OC6         ; 17.351 ;    ;    ; 17.351 ;
+; A2         ; OD5         ; 16.730 ;    ;    ; 16.730 ;
+; A2         ; OE4         ; 16.159 ;    ;    ; 16.159 ;
+; A2         ; OF3         ; 18.154 ;    ;    ; 18.154 ;
+; A2         ; OG2         ; 18.564 ;    ;    ; 18.564 ;
+; A2         ; P           ; 12.711 ;    ;    ; 12.711 ;
+; A2         ; logic_c     ; 13.756 ;    ;    ; 13.756 ;
+; A2         ; logic_d     ; 17.027 ;    ;    ; 17.027 ;
+; A3         ; A_eq_B      ; 16.489 ;    ;    ; 16.489 ;
+; A3         ; C_nplus4    ; 14.429 ;    ;    ; 14.429 ;
+; A3         ; G           ; 12.661 ;    ;    ; 12.661 ;
+; A3         ; OA8         ; 14.451 ;    ;    ; 14.451 ;
+; A3         ; OB7         ; 16.879 ;    ;    ; 16.879 ;
+; A3         ; OC6         ; 15.616 ;    ;    ; 15.616 ;
+; A3         ; OD5         ; 15.506 ;    ;    ; 15.506 ;
+; A3         ; OE4         ; 15.647 ;    ;    ; 15.647 ;
+; A3         ; OF3         ; 16.389 ;    ;    ; 16.389 ;
+; A3         ; OG2         ; 15.124 ;    ;    ; 15.124 ;
+; A3         ; P           ; 12.657 ;    ;    ; 12.657 ;
+; A3         ; logic_d     ; 13.591 ;    ;    ; 13.591 ;
+; B0         ; A_eq_B      ; 17.500 ;    ;    ; 17.500 ;
+; B0         ; C_nplus4    ; 15.063 ;    ;    ; 15.063 ;
+; B0         ; G           ; 14.086 ;    ;    ; 14.086 ;
+; B0         ; OA8         ; 18.014 ;    ;    ; 18.014 ;
+; B0         ; OB7         ; 16.440 ;    ;    ; 16.440 ;
+; B0         ; OC6         ; 16.844 ;    ;    ; 16.844 ;
+; B0         ; OD5         ; 16.735 ;    ;    ; 16.735 ;
+; B0         ; OE4         ; 17.150 ;    ;    ; 17.150 ;
+; B0         ; OF3         ; 16.846 ;    ;    ; 16.846 ;
+; B0         ; OG2         ; 18.488 ;    ;    ; 18.488 ;
+; B0         ; P           ; 13.291 ;    ;    ; 13.291 ;
+; B0         ; logic_a     ; 13.575 ;    ;    ; 13.575 ;
+; B0         ; logic_b     ; 14.092 ;    ;    ; 14.092 ;
+; B0         ; logic_c     ; 15.470 ;    ;    ; 15.470 ;
+; B0         ; logic_d     ; 18.751 ;    ;    ; 18.751 ;
+; B1         ; A_eq_B      ; 17.408 ;    ;    ; 17.408 ;
+; B1         ; C_nplus4    ; 14.420 ;    ;    ; 14.420 ;
+; B1         ; G           ; 13.574 ;    ;    ; 13.574 ;
+; B1         ; OA8         ; 17.771 ;    ;    ; 17.771 ;
+; B1         ; OB7         ; 17.281 ;    ;    ; 17.281 ;
+; B1         ; OC6         ; 16.031 ;    ;    ; 16.031 ;
+; B1         ; OD5         ; 15.922 ;    ;    ; 15.922 ;
+; B1         ; OE4         ; 16.337 ;    ;    ; 16.337 ;
+; B1         ; OF3         ; 16.429 ;    ;    ; 16.429 ;
+; B1         ; OG2         ; 17.904 ;    ;    ; 17.904 ;
+; B1         ; P           ; 12.648 ;    ;    ; 12.648 ;
+; B1         ; logic_b     ; 13.279 ;    ;    ; 13.279 ;
+; B1         ; logic_c     ; 14.237 ;    ;    ; 14.237 ;
+; B1         ; logic_d     ; 17.518 ;    ;    ; 17.518 ;
+; B2         ; A_eq_B      ; 16.971 ;    ;    ; 16.971 ;
+; B2         ; C_nplus4    ; 14.251 ;    ;    ; 14.251 ;
+; B2         ; G           ; 12.854 ;    ;    ; 12.854 ;
+; B2         ; OA8         ; 17.637 ;    ;    ; 17.637 ;
+; B2         ; OB7         ; 16.577 ;    ;    ; 16.577 ;
+; B2         ; OC6         ; 17.097 ;    ;    ; 17.097 ;
+; B2         ; OD5         ; 16.476 ;    ;    ; 16.476 ;
+; B2         ; OE4         ; 15.905 ;    ;    ; 15.905 ;
+; B2         ; OF3         ; 17.900 ;    ;    ; 17.900 ;
+; B2         ; OG2         ; 18.310 ;    ;    ; 18.310 ;
+; B2         ; P           ; 12.479 ;    ;    ; 12.479 ;
+; B2         ; logic_c     ; 13.502 ;    ;    ; 13.502 ;
+; B2         ; logic_d     ; 16.773 ;    ;    ; 16.773 ;
+; B3         ; A_eq_B      ; 17.180 ;    ;    ; 17.180 ;
+; B3         ; C_nplus4    ; 15.120 ;    ;    ; 15.120 ;
+; B3         ; G           ; 13.352 ;    ;    ; 13.352 ;
+; B3         ; OA8         ; 15.142 ;    ;    ; 15.142 ;
+; B3         ; OB7         ; 17.570 ;    ;    ; 17.570 ;
+; B3         ; OC6         ; 16.307 ;    ;    ; 16.307 ;
+; B3         ; OD5         ; 16.197 ;    ;    ; 16.197 ;
+; B3         ; OE4         ; 16.338 ;    ;    ; 16.338 ;
+; B3         ; OF3         ; 17.080 ;    ;    ; 17.080 ;
+; B3         ; OG2         ; 15.815 ;    ;    ; 15.815 ;
+; B3         ; P           ; 13.348 ;    ;    ; 13.348 ;
+; B3         ; logic_d     ; 14.282 ;    ;    ; 14.282 ;
+; BIN1       ; OA8         ; 11.162 ;    ;    ; 11.162 ;
+; BIN1       ; OB7         ; 9.321  ;    ;    ; 9.321  ;
+; BIN1       ; OC6         ; 9.827  ;    ;    ; 9.827  ;
+; BIN1       ; OD5         ; 9.212  ;    ;    ; 9.212  ;
+; BIN1       ; OE4         ; 10.260 ;    ;    ; 10.260 ;
+; BIN1       ; OF3         ; 10.644 ;    ;    ; 10.644 ;
+; BIN1       ; OG2         ; 11.722 ;    ;    ; 11.722 ;
+; Cn         ; A_eq_B      ; 14.712 ;    ;    ; 14.712 ;
+; Cn         ; C_nplus4    ; 10.693 ;    ;    ; 10.693 ;
+; Cn         ; OA8         ; 15.226 ;    ;    ; 15.226 ;
+; Cn         ; OB7         ; 13.652 ;    ;    ; 13.652 ;
+; Cn         ; OC6         ; 14.116 ;    ;    ; 14.116 ;
+; Cn         ; OD5         ; 14.007 ;    ;    ; 14.007 ;
+; Cn         ; OE4         ; 14.422 ;    ;    ; 14.422 ;
+; Cn         ; OF3         ; 14.058 ;    ;    ; 14.058 ;
+; Cn         ; OG2         ; 15.700 ;    ;    ; 15.700 ;
+; Cn         ; logic_a     ; 10.787 ;    ;    ; 10.787 ;
+; Cn         ; logic_b     ; 11.364 ;    ;    ; 11.364 ;
+; Cn         ; logic_c     ; 12.742 ;    ;    ; 12.742 ;
+; Cn         ; logic_d     ; 16.023 ;    ;    ; 16.023 ;
+; M          ; A_eq_B      ; 14.569 ;    ;    ; 14.569 ;
+; M          ; OA8         ; 15.128 ;    ;    ; 15.128 ;
+; M          ; OB7         ; 13.554 ;    ;    ; 13.554 ;
+; M          ; OC6         ; 13.845 ;    ;    ; 13.845 ;
+; M          ; OD5         ; 13.736 ;    ;    ; 13.736 ;
+; M          ; OE4         ; 13.503 ;    ;    ; 13.503 ;
+; M          ; OF3         ; 13.960 ;    ;    ; 13.960 ;
+; M          ; OG2         ; 15.602 ;    ;    ; 15.602 ;
+; M          ; logic_a     ; 10.689 ;    ;    ; 10.689 ;
+; M          ; logic_b     ; 11.093 ;    ;    ; 11.093 ;
+; M          ; logic_c     ; 11.100 ;    ;    ; 11.100 ;
+; M          ; logic_d     ; 14.385 ;    ;    ; 14.385 ;
+; S0         ; A_eq_B      ; 16.983 ;    ;    ; 16.983 ;
+; S0         ; C_nplus4    ; 14.811 ;    ;    ; 14.811 ;
+; S0         ; G           ; 12.866 ;    ;    ; 12.866 ;
+; S0         ; OA8         ; 15.278 ;    ;    ; 15.278 ;
+; S0         ; OB7         ; 16.441 ;    ;    ; 16.441 ;
+; S0         ; OC6         ; 16.457 ;    ;    ; 16.457 ;
+; S0         ; OD5         ; 16.347 ;    ;    ; 16.347 ;
+; S0         ; OE4         ; 15.917 ;    ;    ; 15.917 ;
+; S0         ; OF3         ; 16.847 ;    ;    ; 16.847 ;
+; S0         ; OG2         ; 15.951 ;    ;    ; 15.951 ;
+; S0         ; logic_a     ; 13.576 ;    ;    ; 13.576 ;
+; S0         ; logic_b     ; 14.154 ;    ;    ; 14.154 ;
+; S0         ; logic_c     ; 13.514 ;    ;    ; 13.514 ;
+; S0         ; logic_d     ; 14.432 ;    ;    ; 14.432 ;
+; S1         ; A_eq_B      ; 16.654 ;    ;    ; 16.654 ;
+; S1         ; C_nplus4    ; 14.482 ;    ;    ; 14.482 ;
+; S1         ; G           ; 12.537 ;    ;    ; 12.537 ;
+; S1         ; OA8         ; 15.157 ;    ;    ; 15.157 ;
+; S1         ; OB7         ; 16.111 ;    ;    ; 16.111 ;
+; S1         ; OC6         ; 16.336 ;    ;    ; 16.336 ;
+; S1         ; OD5         ; 16.159 ;    ;    ; 16.159 ;
+; S1         ; OE4         ; 15.588 ;    ;    ; 15.588 ;
+; S1         ; OF3         ; 16.517 ;    ;    ; 16.517 ;
+; S1         ; OG2         ; 15.830 ;    ;    ; 15.830 ;
+; S1         ; logic_a     ; 13.246 ;    ;    ; 13.246 ;
+; S1         ; logic_b     ; 13.824 ;    ;    ; 13.824 ;
+; S1         ; logic_c     ; 13.185 ;    ;    ; 13.185 ;
+; S1         ; logic_d     ; 14.311 ;    ;    ; 14.311 ;
+; S2         ; A_eq_B      ; 16.863 ;    ;    ; 16.863 ;
+; S2         ; C_nplus4    ; 14.149 ;    ;    ; 14.149 ;
+; S2         ; G           ; 13.035 ;    ;    ; 13.035 ;
+; S2         ; OA8         ; 14.825 ;    ;    ; 14.825 ;
+; S2         ; OB7         ; 16.170 ;    ;    ; 16.170 ;
+; S2         ; OC6         ; 15.990 ;    ;    ; 15.990 ;
+; S2         ; OD5         ; 15.880 ;    ;    ; 15.880 ;
+; S2         ; OE4         ; 15.986 ;    ;    ; 15.986 ;
+; S2         ; OF3         ; 16.576 ;    ;    ; 16.576 ;
+; S2         ; OG2         ; 15.498 ;    ;    ; 15.498 ;
+; S2         ; P           ; 12.377 ;    ;    ; 12.377 ;
+; S2         ; logic_a     ; 13.305 ;    ;    ; 13.305 ;
+; S2         ; logic_b     ; 13.506 ;    ;    ; 13.506 ;
+; S2         ; logic_c     ; 13.583 ;    ;    ; 13.583 ;
+; S2         ; logic_d     ; 13.965 ;    ;    ; 13.965 ;
+; S3         ; A_eq_B      ; 16.739 ;    ;    ; 16.739 ;
+; S3         ; C_nplus4    ; 13.836 ;    ;    ; 13.836 ;
+; S3         ; G           ; 13.238 ;    ;    ; 13.238 ;
+; S3         ; OA8         ; 15.028 ;    ;    ; 15.028 ;
+; S3         ; OB7         ; 15.857 ;    ;    ; 15.857 ;
+; S3         ; OC6         ; 15.766 ;    ;    ; 15.766 ;
+; S3         ; OD5         ; 15.657 ;    ;    ; 15.657 ;
+; S3         ; OE4         ; 15.673 ;    ;    ; 15.673 ;
+; S3         ; OF3         ; 16.164 ;    ;    ; 16.164 ;
+; S3         ; OG2         ; 15.701 ;    ;    ; 15.701 ;
+; S3         ; P           ; 12.064 ;    ;    ; 12.064 ;
+; S3         ; logic_a     ; 12.992 ;    ;    ; 12.992 ;
+; S3         ; logic_b     ; 13.014 ;    ;    ; 13.014 ;
+; S3         ; logic_c     ; 13.270 ;    ;    ; 13.270 ;
+; S3         ; logic_d     ; 14.168 ;    ;    ; 14.168 ;
++------------+-------------+--------+----+----+--------+
+
+
+-------------------
+; Clock Transfers ;
+-------------------
+Nothing to report.
+
+
+---------------
+; Report TCCS ;
+---------------
+No dedicated SERDES Transmitter circuitry present in device or used in design
+
+
+---------------
+; Report RSKM ;
+---------------
+No non-DPA dedicated SERDES Receiver circuitry present in device or used in design
+
+
++------------------------------------------------+
+; Unconstrained Paths                            ;
++---------------------------------+-------+------+
+; Property                        ; Setup ; Hold ;
++---------------------------------+-------+------+
+; Illegal Clocks                  ; 0     ; 0    ;
+; Unconstrained Clocks            ; 0     ; 0    ;
+; Unconstrained Input Ports       ; 15    ; 15   ;
+; Unconstrained Input Port Paths  ; 198   ; 198  ;
+; Unconstrained Output Ports      ; 15    ; 15   ;
+; Unconstrained Output Port Paths ; 198   ; 198  ;
++---------------------------------+-------+------+
+
+
++------------------------------------+
+; TimeQuest Timing Analyzer Messages ;
++------------------------------------+
+Info: *******************************************************************
+Info: Running Quartus II 64-Bit TimeQuest Timing Analyzer
+    Info: Version 13.1.0 Build 162 10/23/2013 SJ Web Edition
+    Info: Processing started: Thu Oct 28 18:30:30 2021
+Info: Command: quartus_sta 74181-alu -c 74181-alu
+Info: qsta_default_script.tcl version: #1
+Info (11104): Parallel Compilation has detected 4 hyper-threaded processors. However, the extra hyper-threaded processors will not be used by default. Parallel Compilation will use 2 of the 2 physical processors detected instead.
+Info (21077): Low junction temperature is 0 degrees C
+Info (21077): High junction temperature is 85 degrees C
+Info (306004): Started post-fitting delay annotation
+Info (306005): Delay annotation completed successfully
+Critical Warning (332012): Synopsys Design Constraints File file not found: '74181-alu.sdc'. A Synopsys Design Constraints File is required by the TimeQuest Timing Analyzer to get proper timing constraints. Without it, the Compiler will not properly optimize the design.
+Info (332142): No user constrained base clocks found in the design. Calling "derive_clocks -period 1.0"
+Info (332096): The command derive_clocks did not find any clocks to derive.  No clocks were created or changed.
+Warning (332068): No clocks defined in design.
+Info: Found TIMEQUEST_REPORT_SCRIPT_INCLUDE_DEFAULT_ANALYSIS = ON
+Info (332159): No clocks to report
+Info (332140): No fmax paths to report
+Info (332140): No Setup paths to report
+Info (332140): No Hold paths to report
+Info (332140): No Recovery paths to report
+Info (332140): No Removal paths to report
+Info (332140): No Minimum Pulse Width paths to report
+Info (332001): The selected device family is not supported by the report_metastability command.
+Info (332102): Design is not fully constrained for setup requirements
+Info (332102): Design is not fully constrained for hold requirements
+Info: Quartus II 64-Bit TimeQuest Timing Analyzer was successful. 0 errors, 2 warnings
+    Info: Peak virtual memory: 4572 megabytes
+    Info: Processing ended: Thu Oct 28 18:30:31 2021
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
